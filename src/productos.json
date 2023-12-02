@@ -1,0 +1,67 @@
+
+[
+    {
+        "id" : 1 ,
+        "nombre" : "Remera Blanca" ,
+        "precio" : 10000,
+        "image" : "src/assets/images/remera-1.jpg",
+        "tipo": "remeras",
+        "stock": 10,
+        "descripcion": "Remera de algodón 24/1 peinado"
+    },
+    {
+        "id" : 2,
+        "nombre" : "Buzo Back" ,
+        "precio" : 45500,
+        "image" : "src/assets/images/buzo-6.jpg",
+        "tipo": "buzos",
+        "stock": 10,
+        "descripcion": "Buzo de alg/poly con capucha y bolsillo"
+    },
+
+    {
+        "id" : 3 ,
+        "nombre" : "Buzo Capucha canguro" ,
+        "precio" : 35000,
+        "image" : "src/assets/images/buzo-1.jpg",
+        "tipo": "buzos",
+        "stock": 10,
+        "descripcion": "Buzo de alg/poly con capucha y bolsillo"
+    },
+
+    {
+        "id" : 4 ,
+        "nombre" : "Camisa Leñadora" ,
+        "precio" : 40000,
+        "image" : "src/assets/images/camisa-1.jpg",
+        "tipo": "camisas",
+        "stock": 10,
+        "descripcion": "Camisa de viyela con botones con logo"
+    },
+
+    {
+        "id" : 5 ,
+        "nombre" : "Remera ON" ,
+        "precio" : 35000,
+        "image" : "src/assets/remera-5.jpg",
+        "tipo": "remeras",
+        "stock": 10,
+        "descripcion": "Remera de algodón 24/1 peinado"
+    },
+
+    {
+        "id" : 6,
+        "nombre" : "Buzo Times" ,
+        "precio" : 40000,
+        "image" : "src/assets/images/buzo-3.jpg",
+        "tipo": "buzos",
+        "stock": 10,
+        "descripcion": "Buzo de alg/poly con capucha y bolsillo"
+    }
+
+
+
+]
+
+
+
