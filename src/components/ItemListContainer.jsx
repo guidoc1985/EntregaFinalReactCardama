@@ -20,6 +20,7 @@ const fetchData = async()=>{
         resolve( id ? productos.filter(item=> item.tipo ===id): productos)
       }, 100)
     })
+    console.log( "productos filtrados:", data)
     setItem(data)
   }catch (error){
     console.log("Error:", error)

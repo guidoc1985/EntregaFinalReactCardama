@@ -3,7 +3,10 @@ import { Link } from "react-router-dom"
 import PropTypes from "prop-types"
 import ProductCard from "./ProductCard"
 
+
+
 const Item = ({item}) => {
+  
   return (
 
 <Link to={"/item/" + item.id} className="text-decoration-none">

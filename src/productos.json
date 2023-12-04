@@ -4,7 +4,7 @@
         "id" : 1 ,
         "nombre" : "Remera Blanca" ,
         "precio" : 10000,
-        "image" : "src/assets/images/remera-1.jpg",
+        "image" : "https://scontent.faep9-1.fna.fbcdn.net/v/t31.18172-8/21083488_1995416450694815_4218996426820918534_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=pQ1ugy6G4_oAX9l4amC&_nc_ht=scontent.faep9-1.fna&oh=00_AfBh7aJZJ1NlgAZG_eCpbwUD01JIhHc9f1P6tmf6TLMUSQ&oe=6594B218",
         "tipo": "remeras",
         "stock": 10,
         "descripcion": "Remera de algodón 24/1 peinado"
@@ -13,7 +13,7 @@
         "id" : 2,
         "nombre" : "Buzo Back" ,
         "precio" : 45500,
-        "image" : "src/assets/images/buzo-6.jpg",
+        "image" : "https://scontent.faep9-3.fna.fbcdn.net/v/t31.18172-8/12967475_1754417061461423_6257351358536517420_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=4dc865&_nc_ohc=6O7I1vI2YJYAX8qyg_S&_nc_ht=scontent.faep9-3.fna&oh=00_AfBjTJ-a_SkOILotRfQlhiylfFYP5hinR2SukeqlvnX9pQ&oe=6594A3B2",
         "tipo": "buzos",
         "stock": 10,
         "descripcion": "Buzo de alg/poly con capucha y bolsillo"
@@ -23,7 +23,7 @@
         "id" : 3 ,
         "nombre" : "Buzo Capucha canguro" ,
         "precio" : 35000,
-        "image" : "src/assets/images/buzo-1.jpg",
+        "image" : "https://scontent.faep9-3.fna.fbcdn.net/v/t31.18172-8/16587136_1894294200807041_8559171964046540489_o.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=clCtjwTP2ssAX9w0GnY&_nc_ht=scontent.faep9-3.fna&oh=00_AfAH_pBylEoqU7RbCOMkywQlpjJ9MkO8xP1soW0B-iCCXQ&oe=6594C060",
         "tipo": "buzos",
         "stock": 10,
         "descripcion": "Buzo de alg/poly con capucha y bolsillo"
@@ -33,7 +33,7 @@
         "id" : 4 ,
         "nombre" : "Camisa Leñadora" ,
         "precio" : 40000,
-        "image" : "src/assets/images/camisa-1.jpg",
+        "image" : "https://scontent.faep9-1.fna.fbcdn.net/v/t31.18172-8/16602532_1894292020807259_9136457384549334369_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=8Y3jY_qNTxkAX9tP2mA&_nc_ht=scontent.faep9-1.fna&oh=00_AfCCqcXL3JS129LJ89tPvhe5DuSBM0nhZMZElB6HrYws6A&oe=6594C6F6",
         "tipo": "camisas",
         "stock": 10,
         "descripcion": "Camisa de viyela con botones con logo"
@@ -43,7 +43,7 @@
         "id" : 5 ,
         "nombre" : "Remera ON" ,
         "precio" : 35000,
-        "image" : "src/assets/remera-5.jpg",
+        "image" : "https://scontent.faep9-3.fna.fbcdn.net/v/t31.18172-8/21083722_1995415824028211_9178949102326695152_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=zMbNNtxninYAX9mBWmF&_nc_ht=scontent.faep9-3.fna&oh=00_AfBD-VZnLedgNGpryWZo1H9y1n7CPYQNxne_Mb_HfzTwdg&oe=6594B917",
         "tipo": "remeras",
         "stock": 10,
         "descripcion": "Remera de algodón 24/1 peinado"
@@ -53,7 +53,7 @@
         "id" : 6,
         "nombre" : "Buzo Times" ,
         "precio" : 40000,
-        "image" : "src/assets/images/buzo-3.jpg",
+        "image" : "https://scontent.faep9-1.fna.fbcdn.net/v/t31.18172-8/16487035_1894294197473708_210826333894871169_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=T43zI8mUd4wAX8zCPhH&_nc_ht=scontent.faep9-1.fna&oh=00_AfBrEmh8fPNd3jBToVCYiRePmMYuvYdKlVH59kTqSS_3Lg&oe=6594B88D",
         "tipo": "buzos",
         "stock": 10,
         "descripcion": "Buzo de alg/poly con capucha y bolsillo"
