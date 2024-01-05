@@ -1,8 +1,8 @@
-# React + Vite
+PAGINA DEDICADA A LA MARCA DE INDUMENTARIA PORTLAND SKATE
+CREADA POR GUIDO CARDAMA estudiante de React JS
+La misma contiene productos alojados en Firestore, que se muestras en el menu principal.
+Y tambien mediante un filtrado, se pueden navegar entre pestañas para ver los productos por categoria.
+Una vez que eliges el producto, puede agregarlo al carrito seleccionando con el contador la cantidad deseada.
+Luego en Terminar compra, podes ingresar tus datos para recibir el id de tu compra brindado por Firestore.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

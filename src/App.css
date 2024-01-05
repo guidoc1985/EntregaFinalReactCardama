@@ -51,9 +51,24 @@ header {
   width: 40px; 
   height: 30px; 
   margin: 0 5px; 
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
 }
+
+/* Estilos para el contenedor de la imagen */
+.image-container {
+  text-align: center; 
+  margin-top: 80px;/* Centra la imagen horizontalmente */
+}
+
+/* Estilos para la imagen del producto */
+.product-image {
+  max-width: 400px; /* Define el ancho máximo de la imagen */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+  /* Otros estilos que desees aplicar a la imagen */
+}
+
+
 
 
 .product-card {
@@ -83,6 +98,50 @@ header {
   margin-left: 1%;
 }
 
+.boton-cart{
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  padding: 10px 20px;
+  margin: 10px;
+  position: fixed;
+  top: 20px; 
+  right: 20px; 
+  z-index: 999; 
+}
+
+.agregar-carrito{
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+margin-left: 45%;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.boton-terminar{
+  background-color: #3498db;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+margin-top: 80px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+margin-left: 40%;
+  padding: 10px 20px;
+  margin-bottom: 60px;
+}
+
 .itemListContainer p{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  color: black;
@@ -90,6 +149,7 @@ header {
  margin-bottom: 50px;
  
 }
+
 
 .itemListContainer h3{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -538,6 +598,9 @@ path {
     padding: 0;
     margin: 0;
   }
+.home{
+  display: none;
+}
   .navbar-toggler-icon {
     display: flex;
     justify-content: flex-start;
@@ -556,6 +619,9 @@ path {
     margin: 0;
   }
 
+  .home{
+    display: none;
+  }
   #carrito{
     margin-top: 5px
   }

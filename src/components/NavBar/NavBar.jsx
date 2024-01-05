@@ -1,7 +1,8 @@
 
-import CarWidget from "./CarWidget"
+import CarWidget from "../Carwidget/CarWidget"
 import {Link} from "react-router-dom"
 import logo from '/assets/images/logo.jpg';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -10,11 +11,13 @@ const NavBar = () => {
      
     <nav className="navbar navbar-expand-lg  bg-black">
       <div className="container-fluid">
-      <img className="logo" src={logo} alt="logo" />
-        <Link to ="/" className="LinkStyle">Home </Link>
+      <Link to ="/" className="LinkStyle nav-item">
+      <img className="logo" href="/" src={logo} alt="logo" />
+      </Link>
+        <Link to ="/" className="LinkStyle home">Home </Link>
        
         
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="navbar container-fluid" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link to = "/category/remeras" className="LinkStyle">Remeras</Link>
@@ -25,7 +28,9 @@ const NavBar = () => {
             <li className="nav-item">
             <Link to = "/category/camisas"className="LinkStyle">Camisas</Link>
             </li> 
+            <NavLink to="/cart" className="navbar-cart">
             <CarWidget />
+            </NavLink>
            
           </ul>
 {/*         

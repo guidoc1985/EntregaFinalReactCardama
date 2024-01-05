@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
-import productos from "../productos.json"
-import ItemList from "./itemList"
+import {getFirestore, collection, getDocs, where, query} from "firebase/firestore"
+import ItemList from "../ItemList/ItemList"
 
 
 
@@ -12,21 +12,18 @@ const ItemListContainer = () => {
   const {id} = useParams();
 
 useEffect(()=>{
-  console.log("Categoría seleccionada:", id);
-const fetchData = async()=>{
-  try{
-    const data = await new Promise ((resolve)=>{
-      setTimeout(()=>{
-        resolve( id ? productos.filter(item=> item.tipo ===id): productos)
-      }, 100)
-    })
-    console.log( "productos filtrados:", data)
-    setItem(data)
-  }catch (error){
-    console.log("Error:", error)
-  }
-}
-  fetchData()
+ const queryDb= getFirestore ();
+ const queryCollection = collection(queryDb, "products")
+
+ if (id){
+  const queryFilter = query(queryCollection, where ("categoryId", "==", id));
+  getDocs(queryFilter).then((res)=>
+  setItem(res.docs.map((p)=> ({id: p.id, ...p.data()}))))
+ }else{
+  getDocs(queryCollection).then((res)=>
+  setItem(res.docs.map((p)=> ({id: p.id, ...p.data()}))))
+ }
+
 }, [id])
 
 

@@ -2,8 +2,8 @@
 // eslint-disable-next-line no-unused-vars
 import  { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom"
-import productos from '../productos.json'
-import ItemDetail from "./ItemDetail"
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
+import ItemDetail from "../ItemDetail/ItemDetail"
 
 // eslint-disable-next-line react/prop-types
 const ItemDetailContainer = () => {
@@ -11,17 +11,14 @@ const ItemDetailContainer = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    const promesa = new Promise ((resolve) => {
-        
-            resolve(productos.find(item=>item.id === parseInt(id)));
-          }
-        );
-        promesa.then((data)=>{
-        setItem(data);
-        console.log(data)
-      })
-      
-  }, [id]);
+    const queryDb= getFirestore ();
+    const queryDoc = doc(queryDb, "products", id)
+    getDoc(queryDoc).then((res)=>
+    setItem({id: res.id, ...res.data()}))
+   
+  
+   }, [id])
+   
 
   return (
     <>
