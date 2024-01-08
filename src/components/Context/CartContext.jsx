@@ -36,7 +36,7 @@ const totalProducts = ()=>{
 
 }
 
-const clearCart = () => setCart ([0]);
+const clearCart = () => setCart ([]);
 
 const isInCart = (id) => 
 cart.find((product) => product.id ===id) ?  true : false;

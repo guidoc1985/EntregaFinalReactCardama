@@ -15,7 +15,9 @@ export const Checkout =() =>{
     // eslint-disable-next-line no-unused-vars
     const [mensaje, setMensaje] = useState("");
 
-    const { cart, totalPrice, removeProduct} = useCartContext();
+    const { cart, totalPrice, removeProduct, clearCart} = useCartContext();
+
+
 
     const manejoFormulario = (event) =>{
         event.preventDefault()
@@ -60,11 +62,13 @@ export const Checkout =() =>{
         })
      )
      .then(()=> {
+        
         const db = getFirestore();
         addDoc(collection(db, "orders"), orden)
         .then((docRef)=> {
             setOrdenId(docRef.id)
             removeProduct();
+        clearCart()
         })
     
 

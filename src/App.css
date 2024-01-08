@@ -797,6 +797,10 @@ path {
     display: none;
   }
 
+  .home{
+    display: none;
+  }
+
   .container{
     height: 1500px;
   }
