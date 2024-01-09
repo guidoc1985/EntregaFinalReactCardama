@@ -15,6 +15,7 @@ const Item = ({item}) => {
             <img src={item.image} className="card-img-top" alt={item.title}/>
         
                 <p className="card-tex">{item.title}</p>
+                
                 <p className="card-tex">$ {item.price}</p>
           
     </ProductCard>
@@ -30,6 +31,7 @@ Item.propTypes = {
       id: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
+      
       price: PropTypes.number.isRequired
     }).isRequired,
 }
